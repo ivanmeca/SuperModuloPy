@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "supermodulopy"
+version = "0.1.0"
+description = ""
+authors = ["Ivan Mascarenhas <ivan.mascarenhas@hp.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
