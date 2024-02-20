@@ -9,7 +9,7 @@ def NewPrompt(prompt):
 
 
 # Exercicio 01
-NewPrompt('Exercicio 01 - soma de valores')
+NewPrompt('Exercicio 01 - soma de valores!')
 valor1 = int(input('Digite um valor inteiro:'))
 valor2 = int(input('Digite um segundo valor inteiro:'))
 print(f'A soma entre {valor1} e {valor2} é de {valor1 + valor2}')
