@@ -1,4 +1,3 @@
-import random
 from utils import new_prompt
 
 # Exercicio jogo limite de soma
