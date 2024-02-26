@@ -28,7 +28,7 @@ while N_Tentativas <= 10:
                           f'{Limites[1]}. Digite um numero: '))
     if Tentativa == NumeroAlvo:
         print('Parabens, você acertou!!')
-        sys.exit(0)
+        break
     if Tentativa > NumeroAlvo:
         print('O número é menor')
         Limites[1] = Tentativa
@@ -36,5 +36,6 @@ while N_Tentativas <= 10:
         print('O número é maior')
         Limites[0] = Tentativa
     N_Tentativas += 1
-
-print(f'Limite de tentativas, o numero era {NumeroAlvo}')
+else:
+    print(f'Limite de tentativas, o numero era {NumeroAlvo}')
+print(f'Final de jogo')
