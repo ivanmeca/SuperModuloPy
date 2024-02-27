@@ -4,7 +4,7 @@ from utils import new_prompt
 new_prompt('Exercicio - soma dos multiplos')
 Soma = 0
 for x in range(10):
-    valor = int(input(f'Tentativa {x}. Digite um numero: '))
+    valor = int(input(f'Tentativa {x+1}. Digite um numero: '))
     if not valor % 6:
         Soma += valor
     if Soma >= 30:
