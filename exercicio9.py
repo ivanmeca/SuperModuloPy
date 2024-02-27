@@ -4,13 +4,12 @@ from utils import new_prompt
 new_prompt('Exercicio - limite da soma')
 Soma = 0
 Tentativas = 0
-while Tentativas <= 10 and Soma < 50:
-    Soma += int(input(f'Tentativa {Tentativas}. Digite um numero: '))
+while Tentativas <= 20 and Soma < 50:
+    Valor = int(input(f'Tentativa {Tentativas}. Digite um numero: '))
+    if not Valor%2:
+        Soma = Soma + Valor
     Tentativas += 1
-    if Soma >= 50:
-        print(f'Limite de soma atingida, a soma foi {Soma}')
-        break
 else:
     print(f'Limite de tentativas, a soma foi {Soma}')
 
-print(f'Final de jogo')
+print(f'Final de jogo, a soma foi {Soma}')
