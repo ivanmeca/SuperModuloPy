@@ -19,10 +19,10 @@ def new_prompt(prompt):
 
 # Exercicio jogo de adivinhação
 new_prompt('Exercicio - jogo')
-NumeroAlvo = int(random.uniform(0, 100))
+NumeroAlvo = int(random.uniform(0, 1000))
 N_Tentativas = 0
 Tentativa = 0
-Limites = [0, 100]
+Limites = [0, 1000]
 while N_Tentativas <= 10:
     Tentativa = int(input(f'Tentativa {N_Tentativas}, o numero está entre {Limites[0]} e '
                           f'{Limites[1]}. Digite um numero: '))
